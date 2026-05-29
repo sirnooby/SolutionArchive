@@ -1,7 +1,7 @@
 # SolutionArchive
 This repository contains my solutions for various programming questions from various sites.
 
-The notebook serves as my own reference guide for algorithms, use to your own disclosure.
+It contains primarily questions from programming competitions like the CCC or CCO.
 
 All sources are organzied by folders and are coded either in Python and/or C++.
 
