@@ -1,0 +1,27 @@
+#Programmania 2025 - PROBLEM 3: RANDOM ROBOT
+#Notes: Good 2D List knowledge helps alot
+
+start_row, start_column = map(int, input().split())
+
+directions = input().strip()
+
+grid = [list(input().split()) for i in range(10)]
+
+movement = {"U":(-1, 0), "D":(1, 0), "L":(0, -1), "R":(0, 1)}
+robot_position = [start_row, start_column]
+
+total = 0
+
+
+for i in directions:
+    y, x = movement[i]
+    robot_y, robot_x = robot_position[0] + y, robot_position[1] + x
+    total += int(grid[robot_y][robot_x])
+
+    print(int(grid[robot_y][robot_x]))
+    print(robot_x, robot_y)
+
+    robot_position[0] = robot_y
+    robot_position[1] = robot_x
+
+print(total)

@@ -1,0 +1,10 @@
+#Programmania 2025 - PROBLEM 1: Silent Auction
+#Notes: This question is the exact same as CCC '21 J2
+
+bidders = int(input())
+
+bids = [int(input()) for i in range(bidders)]
+
+highest = max(sorted(bids))
+
+print(str(bids.index(highest)+1) + " " + str(highest))
