@@ -1,4 +1,4 @@
-#Problem S2: Sunflowers - 2018 (SirNooby)
+#Problem J4 - S2: Sunflowers - 2018 (SirNooby)
 plants = int(input())
 
 main_grid = [list(map(int, input().split())) for i in range(plants)]

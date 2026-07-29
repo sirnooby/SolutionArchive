@@ -1,4 +1,4 @@
-#Problem S2: Fraction Action - 2002 (SirNooby)
+#Problem J4 - S2: Fraction Action - 2002 (SirNooby)
 import math
 
 numerator = int(input())

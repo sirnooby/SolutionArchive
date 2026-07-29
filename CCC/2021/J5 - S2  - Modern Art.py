@@ -1,4 +1,4 @@
-#Problem S2: Modern Art - 2021 (SirNooby)
+#Problem J5 - S2: Modern Art - 2021 (SirNooby)
 rows = int(input())
 columns = int(input())
 

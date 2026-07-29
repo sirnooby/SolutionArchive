@@ -1,4 +1,4 @@
-#Problem S1 - Flipper - 2019 (SirNooby)
+#Problem J4 - S1 - Flipper - 2019 (SirNooby)
 flips = list(input())
 
 grid = [

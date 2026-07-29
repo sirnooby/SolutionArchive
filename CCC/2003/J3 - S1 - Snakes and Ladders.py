@@ -1,4 +1,4 @@
-#Problem S1: Snakes and Ladders - 2003 (SirNooby)
+#Problem J3 - S1: Snakes and Ladders - 2003 (SirNooby)
 square = 1
 
 snakes = {54:19,90:48,99:77}
